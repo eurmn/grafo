@@ -1,4 +1,4 @@
-# Graph Operations
+# Implementação de Grafo - Estrutura de Dados
 
 Este programa fornece uma implementação de um grafo e permite a execução de várias operações, incluindo a impressão da lista de adjacências, a impressão da matriz de adjacências, a busca em largura (BFS) e a busca em profundidade (DFS).
 
