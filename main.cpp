@@ -39,7 +39,7 @@ void Graph::addEdgeMatrix(int v, int w) {
 
 void Graph::printAdjList() {
     for (int v = 0; v < V; ++v) {
-        cout << "\n Adjacency list of vertex " << v << "\n head ";
+        cout << "\n Lista de adjacência do vértice " << v << "\n cabeça ";
         for (auto x : adjList[v])
             cout << "-> " << x;
         printf("\n");
@@ -133,7 +133,7 @@ int main(int argc, char* argv[]) {
     }
 
     string command = argv[1];
-    ifstream file("graph.txt");
+    ifstream file("grafo.txt");
     string line;
     int V = 5; // Number of vertices
     Graph g(V);
